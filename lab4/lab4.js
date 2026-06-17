@@ -86,16 +86,16 @@ class Book {
 }
 
 try {
-    const book1 = new Book('1984', 1949, 1000);
+    const book1 = new Book('Капитал', 1867, 5000);
     book1.show();
     book1.price = 1900;
     book1.show();
 
     console.log("Цена book1:", book1.price);
 
-    const book2 = new Book('Война и мир', 1867, 890);
+    const book2 = new Book('Война и мир', 1867, 10000);
     book2.show();
-    const book3 = new Book('Игрок', 1896, 750);
+    const book3 = new Book('1984', 1949, 3000);
     book3.show();
 
     const books = [book1, book2, book3];
